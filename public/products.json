@@ -1,72 +1,91 @@
 [
-    {
-        "code": "code-01",
-        "name": "Black Motorcycle",
-        "img": "https://img.freepik.com/free-photo/black-motorcycle-white_1398-276.jpg?w=740&t=st=1671130255~exp=1671130855~hmac=0db397aa1a25d7a0cd00b330d84a7554f6ce50cb9b6a524bbc5be23c7e5292d0",
-        "description": "This is high speet motocycle",
-        "price": "$3,550.00"
+{
+        "code":"code-01",
+        "name":"Black Motorcycle",
+        "img":"https://img.freepik.com/free-photo/black-motorcycle-white_1398-276.jpg?w=740&t=st=1671130255~exp=1671130855~hmac=0db397aa1a25d7a0cd00b330d84a7554f6ce50cb9b6a524bbc5be23c7e5292d0",
+        "description":"This is high speet motocycle",
+        "orginial_price":"$3,550.00",
+        "resale_price":"$1,150.00",
+        "years_of_use":"3 month"
+
+    },
+{
+        "code":"code-02",
+        "name":"Modern Urban Black Moped",
+        "img":"https://img.freepik.com/premium-photo/modern-urban-black-moped-white-background-3d-illustration_101266-894.jpg?w=826",
+        "description":"This is high speet motocycle",
+        "orginial_price":"$1,700.00",
+        "resale_price":"$9000.00",
+        "years_of_use":"5 month"
     },
     {
-        "code": "code-02",
-        "name": "Modern Urban Black Moped",
-        "img": "https://img.freepik.com/premium-photo/modern-urban-black-moped-white-background-3d-illustration_101266-894.jpg?w=826",
-        "description": "This is high speet motocycle",
-        "price": "$1,700.00"
+        "id":3,
+        "code":"code-03",
+        "name":"Isolated Red Super sport Bike",
+        "img":"https://img.freepik.com/premium-psd/isolated-red-super-sport-bike-side-stand-from-right-front-view_16145-216.jpg?w=826",
+        "description":"This is high speet motocycle",
+        "orginial_price":"$4,900.00",
+        "resale_price":"$2400.00",
+        "years_of_use":"1 month"
     },
     {
-        "id": 3,
-        "code": "code-03",
-        "name": "Isolated Red Super sport Bike",
-        "img": "https://img.freepik.com/premium-psd/isolated-red-super-sport-bike-side-stand-from-right-front-view_16145-216.jpg?w=826",
-        "description": "This is high speet motocycle",
-        "price": "$4,900.00"
+        "id":4,
+        "code":"code-04",
+        "name":"Modern urban Blue Moped",
+        "img":"https://img.freepik.com/premium-photo/modern-urban-blue-moped-white-background-3d-illustration_101266-3940.jpg?w=826",
+        "description":"This is high speet motocycle",
+        "orginial_price":"$1,700.00",
+        "resale_price":"$9000.00",
+        "years_of_use":"1 year"
     },
     {
-        "id": 4,
-        "code": "code-04",
-        "name": "Modern urban Blue Moped",
-        "img": "https://img.freepik.com/premium-photo/modern-urban-blue-moped-white-background-3d-illustration_101266-3940.jpg?w=826",
-        "description": "This is high speet motocycle",
-        "price": "$1,700.00"
+        "id":5,
+        "code":"code-05",
+        "name":"Realistic Motorcycle",
+        "img":"https://img.freepik.com/premium-vector/realistic-motorcycle-big-bike-design-white-background-transportation_33869-1972.jpg?w=826",
+        "description":"This is high speet motocycle",
+        "orginial_price":"$3,550.00",
+        "resale_price":"$1600.00",
+        "years_of_use":"9 month"
     },
     {
-        "id": 5,
-        "code": "code-05",
-        "name": "Realistic Motorcycle",
-        "img": "https://img.freepik.com/premium-vector/realistic-motorcycle-big-bike-design-white-background-transportation_33869-1972.jpg?w=826",
-        "description": "This is high speet motocycle",
-        "price": "$3,550.00"
+        "id":6,
+        "code":"code-06",
+        "name":"Shiny Red",
+        "img":"https://img.freepik.com/premium-vector/motocycles_20943-7.jpg?w=740",
+        "description":"This is high speet motocycle",
+        "orginial_price":"$2,220.00",
+        "resale_price":"$1100.00",
+        "years_of_use":"7 month"
     },
     {
-        "id": 6,
-        "code": "code-06",
-        "name": "Shiny Red",
-        "img": "https://img.freepik.com/premium-vector/motocycles_20943-7.jpg?w=740",
-        "description": "This is high speet motocycle",
-        "price": "$2,220.00"
+        "id":7,
+        "code":"code-07",
+        "name":"Black Super Sport Bike",
+        "img":"https://img.freepik.com/free-photo/motorcycle-with-helmet_23-2148875785.jpg?w=740&t=st=1671134054~exp=1671134654~hmac=16b3531c338c120a5f4fd52e33be460e7e1c96c5912d08ec71c94265b4e353e6",
+        "description":"This is high speet motocycle",
+        "orginial_price":"$3,000.00",
+        "resale_price":"$1500.00",
+        "years_of_use":"1 year"
     },
     {
-        "id": 7,
-        "code": "code-07",
-        "name": "Black Super Sport Bike",
-        "img": "https://img.freepik.com/free-photo/motorcycle-with-helmet_23-2148875785.jpg?w=740&t=st=1671134054~exp=1671134654~hmac=16b3531c338c120a5f4fd52e33be460e7e1c96c5912d08ec71c94265b4e353e6",
-        "description": "This is high speet motocycle",
-        "price": "$3,000.00"
+        "id":8,
+        "code":"code-08",
+        "name":"Shiny Black",
+        "img":"https://img.freepik.com/premium-photo/female-biker-full-leather-suit-is-posing-photographer-while-sitting-her-brand-new-motorbike_613910-3251.jpg?w=740",
+        "description":"This is high speet motocycle",
+        "orginial_Price":"$2,500.00",
+        "Resale_Price": "$1250.00",
+        "Years of use":"5 month"
     },
     {
-        "id": 8,
-        "code": "code-08",
-        "name": "Shiny Black",
-        "img": "https://img.freepik.com/premium-photo/female-biker-full-leather-suit-is-posing-photographer-while-sitting-her-brand-new-motorbike_613910-3251.jpg?w=740",
-        "description": "This is high speet motocycle",
-        "price": "$2,500.00"
-    },
-    {
-        "id": 9,
-        "code": "code-09",
-        "name": "Vintage Motorcycle",
-        "img": "https://img.freepik.com/free-vector/flat-design-vintage-motorcycle-illustration_52683-86598.jpg?w=740&t=st=1671134636~exp=1671135236~hmac=3d1989c2893e9f26bd8acc3010b529b06b22c1e449eb514c149f723d9b859760",
-        "description": "This is high speet motocycle",
-        "price": "$1,800.00"
+        "id":9,
+        "code":"code-09",
+        "name":"Vintage Motorcycle",
+        "img":"https://img.freepik.com/free-vector/flat-design-vintage-motorcycle-illustration_52683-86598.jpg?w=740&t=st=1671134636~exp=1671135236~hmac=3d1989c2893e9f26bd8acc3010b529b06b22c1e449eb514c149f723d9b859760",
+        "description":"This is high speet motocycle",
+        "orginial_price":"$1,800.00",
+        "resale_price":"$9000.00",
+        "years_of_use":"6 month"
     }
 ]

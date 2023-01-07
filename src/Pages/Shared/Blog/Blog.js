@@ -25,7 +25,7 @@ const Blog = () => {
             </div>
             <div className="card w-96 bg-base-100 shadow-xl">
                 <div className="card-body">
-                    <h2 className="text-lg">React vs. Angular vs. Vue?</h2>
+                    <h2 className="font-bold">React vs. Angular vs. Vue?</h2>
                     <span className='text-lg'>Answer: </span>
                     <ul>
                         <li>React is a UI library, Angular is a fully-fledged front-end framework, while Vue.js is a progressive framework.</li>

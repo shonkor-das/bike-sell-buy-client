@@ -4,7 +4,7 @@ import { AuthContext } from '../../../../Contexts/AuthProvider';
 
 const BookingProduct = ({ productOption, setProductOption }) => {
 
-    const { name, price, code } = productOption;
+    const { name, resale_price, code } = productOption;
     const {user} = useContext(AuthContext);
 
     const handleBooking = event =>{
@@ -21,7 +21,7 @@ const BookingProduct = ({ productOption, setProductOption }) => {
         const booking ={
             Customer: customerName,
             Product: name,
-            price,
+            resale_price,
             email,
             phone,
             date,
@@ -55,7 +55,7 @@ const BookingProduct = ({ productOption, setProductOption }) => {
                     <h3 className="text-xl font-bold">{name}</h3>
                     
                     <form onSubmit={handleBooking} className='grid grid-cols-1 gap-3 mt-5'>
-                        <input type="text" value={price} disabled className="text-xl font-bold input input-bordered w-full" />
+                        <input type="text" value={resale_price} disabled className="text-xl font-bold input input-bordered w-full" />
                         <input type="text" value={code} disabled className="text-lg input input-bordered w-full" />
                         <input name='customerName' type="text" defaultValue={user?.displayName} disabled placeholder="Type Your Name" className="input input-bordered w-full text-lg " />
                         <input name='email' type="email" defaultValue={user?.email} disabled placeholder="Please Your Email" className="input input-bordered w-full text-lg " />
