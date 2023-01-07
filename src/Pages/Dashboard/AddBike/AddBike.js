@@ -86,13 +86,31 @@ const AddBike = () => {
                     {errors.description && <p className='text-error'>{errors.description?.message}</p>}
                 </div>
                 <div className="form-control w-full">
-                    <label className="label"><span className="label-text">Price</span> </label>
+                    <label className="label"><span className="label-text">Resale Price</span> </label>
                     <input type="text"
-                        {...register("price", {
-                            required: "Price is Required"
+                        {...register("resale_price", {
+                            required: "Resale Price is Required"
                         })}
                         className="input input-bordered w-full" />
-                    {errors.price && <p className='text-error'>{errors.price?.message}</p>}
+                    {errors.resale_price && <p className='text-error'>{errors.resale_price?.message}</p>}
+                </div>
+                <div className="form-control w-full">
+                    <label className="label"><span className="label-text">Orginial Price</span> </label>
+                    <input type="text"
+                        {...register("orginial_price", {
+                            required: "Orginial Price is Required"
+                        })}
+                        className="input input-bordered w-full" />
+                    {errors.orginial_price && <p className='text-error'>{errors.orginial_price?.message}</p>}
+                </div>
+                <div className="form-control w-full">
+                    <label className="label"><span className="label-text">Years of Use</span> </label>
+                    <input type="text"
+                        {...register("years_of_use", {
+                            required: "Years of Use is Required"
+                        })}
+                        className="input input-bordered w-full" />
+                    {errors.years_of_use && <p className='text-error'>{errors.years_of_use?.message}</p>}
                 </div>
                 <div className="form-control w-full">
                     <label className="label"><span className="label-text">Categoriy</span> </label>
